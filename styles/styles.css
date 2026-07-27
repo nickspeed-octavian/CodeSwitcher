@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    font-family: 'Geist Sans', sans-serif;
+    font-family: 'Geist Sans', sans-serif !important;
+    /* Need to ask why this is important here */
     background: black;
     color: #ffffff;
     margin: 0;
