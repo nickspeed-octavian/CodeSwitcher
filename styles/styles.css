@@ -50,3 +50,11 @@ body {
     display: flex;
     align-items: center;
 }
+
+.header__title {
+    margin: 0;
+    font-size: 24px;
+    background: -webkit-linear-gradient(280deg, #ffffff, #4d4d4d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
