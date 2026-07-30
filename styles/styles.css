@@ -19,3 +19,16 @@ body {
     overflow-x: hidden;
     /* prevents overflow on the x-axis*/
 }
+
+.header {
+    width: 100%;
+    padding: 2px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #323232;
+    background: linear-gradient(180deg, #000000, #181818);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
