@@ -77,3 +77,10 @@ body {
 .header__link:hover {
     color: #fff;
 }
+
+.header__auth {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 20px 0;
+}
