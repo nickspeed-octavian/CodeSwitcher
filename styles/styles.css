@@ -40,8 +40,13 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200px; /* prevents stretching to full screen width */
     padding: 20px 0;
     margin: 0 auto;
     transition: all 0.2s linear;
+}
+
+.header__inner-left {
+    display: flex;
+    align-items: center;
 }
