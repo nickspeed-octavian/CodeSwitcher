@@ -57,4 +57,13 @@ body {
     background: -webkit-linear-gradient(280deg, #ffffff, #4d4d4d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* -webkit lines are what give the background its gradient coloring */
+}
+
+.header__nav.active {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    gap: 2rem;
 }
