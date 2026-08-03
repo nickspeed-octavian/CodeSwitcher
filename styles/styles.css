@@ -60,7 +60,7 @@ body {
     /* -webkit lines are what give the background its gradient coloring */
 }
 
-.header__inner {
+.header__nav {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
