@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-okaidia.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-bash.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-java.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-python.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-go.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-rust.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-typescript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-bash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-go.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-rust.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-typescript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-elixir.min.js"></script>
     <!-- <script src=""></script> -->
 </head>
 <body>
@@ -52,7 +53,37 @@
             <!-- why use span here? -->
         </div>
         <div class="code-container-bg-blur"></div>
-        
+
+        <div class="code-container">
+            <button class="code-container__tab code-container__tab--active" data-language="typescript">
+                <i class="fab fa-js-square code-container__icon"></i>
+                TypeScript
+            </button>
+            <button class="code-container__tab code-container__tab--active">
+                <i class="fab fa-rust code-container__icon"></i>
+                Rust
+            </button>
+            <button class="code-container__tab code-container__tab--active">
+                <i class="fab fa-python code-container__icon"></i>
+                Python
+            </button>
+            <button class="code-container__tab code-container__tab--active">
+                <i class="fab fa-google code-container__icon"></i>
+                Golang
+            </button>
+            <button class="code-container__tab code-container__tab--active">
+                <i class="fab fa-terminal code-container__icon"></i>
+                Curl
+            </button>
+            <button class="code-container__tab code-container__tab--active">
+                <i class="fab fa-phoenix-framework code-container__icon"></i>
+                Elixir
+            </button>
+            <button class="code-container__tab code-container__tab--active">
+                <i class="fab fa-java code-container__icon"></i>
+                Java
+            </button>
+        </div>
     </section>
 
 </body>
