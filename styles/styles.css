@@ -117,3 +117,14 @@ body {
     margin-right: 20px;
     color: #fff;
 }
+
+@media (min-width: 500px) {
+    .header__inner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}
