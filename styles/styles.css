@@ -60,12 +60,16 @@ body {
     /* -webkit lines are what give the background its gradient coloring */
 }
 
+.header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
 .header__nav.active {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     padding: 20px 0;
-    gap: 2rem;
 }
 
 .header__link {
