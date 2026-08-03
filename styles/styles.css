@@ -94,6 +94,13 @@ body {
     border: 1px solid #525252;
     padding: 10px 20px;
     transition: all 0.2s linear;
+    /* what is this transition doing? */
     cursor: pointer;
     margin-left: 10px;
+}
+
+.header__button:hover {
+    background-color: #262626;
+    color: #fff;
+    border: 1px solid #a4a4a4;
 }
