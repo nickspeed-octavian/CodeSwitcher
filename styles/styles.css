@@ -84,3 +84,16 @@ body {
     margin-right: 20px;
     padding: 20px 0;
 }
+
+.header__button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Geist Sans", sans-serif;
+    border-radius: 0.5rem;
+    border: 1px solid #525252;
+    padding: 10px 20px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    margin-left: 10px;
+}
