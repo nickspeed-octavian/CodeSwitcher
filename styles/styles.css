@@ -248,3 +248,43 @@ pre[class*="language-"] {
     padding: 10px;
     border-radius: 5px;
 }
+
+/* Adding styling specifically for the line numbers */
+pre[class*="language-"].line-numbers {
+    position: relative;
+    padding-left: 3.8em;
+    counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+    position: relative;
+    white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    font-size: 100%;
+    left: -3.8em;
+    width: 3em;
+    letter-spacing: -1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* where is this applying? I'm not seeing where there are span children in any of the line-number-rows class elements */
+.line-numbers-rows > span {
+    display: block;
+    counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+    content: counter(linenumber);
+    color: #4f4f4f;
+    display: block;
+    padding-right: 0.8em;
+    text-align: right;
+}
