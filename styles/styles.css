@@ -215,3 +215,12 @@ body {
     font-size: 20px;
     filter: grayscale(100%);
 }
+
+.code-container__content {
+    position: relative;
+    background: linear-gradient(180deg, #191919, #000000);
+    border-radius: 10px;
+    padding: 20px;
+    height: 500px;
+    overflow-y: scroll;
+}
