@@ -146,6 +146,16 @@ body {
     margin: 20px 0;
 }
 
+.code-container {
+    background: radial-gradient(#444444,#000000);
+    border: 1px solid #282828;
+    border-radius: 10px;
+    padding: 25px 0 0 0;
+    width: 100%;
+    max-width: 375px;
+    margin: 120px auto 0 auto;
+}
+
 @media (min-width: 500px) {
     .header__inner {
         display: flex;
