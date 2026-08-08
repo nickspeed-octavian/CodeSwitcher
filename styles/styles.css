@@ -232,3 +232,19 @@ body {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
+.code-container__code--active {
+    display: block;
+}
+
+/* pseudo-selector class */
+pre[class*="language-"] {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.code-container__content pre[class*="language-"] {
+    padding: 10px;
+    border-radius: 5px;
+}
