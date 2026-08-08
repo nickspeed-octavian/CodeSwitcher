@@ -182,3 +182,26 @@ body {
     }
 }
 
+.code-container__tabs {
+    display: flex;
+    justify-content: start;
+    border-radius: 5px;
+    gap: 0.5rem;
+    /* enables scrolling when screen width is too small for all tabs to fit, such as in mobile view */
+    overflow-x: auto;
+    padding: 0 10px;
+}
+
+.code-container__tab {
+    background-color: #121212;
+    padding: 10px 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 1px solid #323232;
+    color: #4d4d4d;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
