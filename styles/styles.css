@@ -46,6 +46,17 @@ body {
     transition: all 0.2s linear;
 }
 
+@media (min-width: 500px) {
+    .header__inner {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}
+
 .header__inner-left {
     display: flex;
     align-items: center;
@@ -171,13 +182,3 @@ body {
     }
 }
 
-@media (min-width: 500px) {
-    .header__inner {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 10px;
-    }
-}
