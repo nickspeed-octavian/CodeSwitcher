@@ -153,7 +153,22 @@ body {
     padding: 25px 0 0 0;
     width: 100%;
     max-width: 375px;
+    /* mobile friendly default styling on width */
     margin: 120px auto 0 auto;
+}
+
+/* media queries are to create larger widths at larger screen sizes */
+
+@media (min-width: 500px) {
+    .code-container {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .code-container {
+        max-width: 960px;
+    }
 }
 
 @media (min-width: 500px) {
